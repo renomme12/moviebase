@@ -10,7 +10,9 @@
 */
 html{
   background-color: #303f9f;
+  font-size: 1rem;
 }
+
 
 body{
 
@@ -95,6 +97,7 @@ text-align: center;
   color: #ffffff;
   background-color: #ff4500;
   border-radius: 3px;
+  display: flex;
 }
 
 .menu{
@@ -106,6 +109,7 @@ text-align: center;
 
 
 .search{
+height: 130px;
 padding-top: 20px;
 padding-left: 150px;
 padding-right: 290px;
@@ -134,4 +138,13 @@ padding-right: 290px;
 *{
   margin: 0;
   padding: 0;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    float: left;
+    margin-left: 70px;
+    border: 10px solid #303f9f;
 }
